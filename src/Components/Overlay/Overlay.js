@@ -5,7 +5,7 @@ const OverlayWrapper = styled.div`
 	position: absolute;
 	width: 100vw;
 	height: 100vh;
-	background: rgba(0, 255, 0);
+	background: blue;
 	display: ${(props) => (props.show ? 'block' : 'none')};
 `;
 
@@ -23,10 +23,10 @@ const VideoIFrame = styled.iframe`
 	height: 70vh;
 `;
 
-const Title = styled.h1`color: blue;`;
+const Title = styled.h1`color: black;`;
 
 const CloseOverlay = styled.p`
-	color: blue;
+	color: red;
 	cursor: pointer;
 `
 
